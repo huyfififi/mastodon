@@ -107,6 +107,8 @@ WORKDIR /opt/mastodon
 # Precompile assets
 RUN OTP_SECRET=precompile_placeholder SECRET_KEY_BASE=precompile_placeholder rails assets:precompile
 
+CMD ["chmod", "+x", "/opt/mastodon"]
+
 # Set the work dir and the container entry point
 ENTRYPOINT ["/usr/bin/tini", "--"]
 EXPOSE 3000 4000
