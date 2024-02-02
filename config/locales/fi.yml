@@ -774,13 +774,8 @@ fi:
           none: Kukaan ei voi rekisteröityä
           open: Kaikki voivat rekisteröityä
       security:
-<<<<<<< HEAD
-        authorized_fetch: Vaadi todennus liittoutuvilta palvelimilta
-        authorized_fetch_hint: Todennuksen vaatiminen liittoutuvilta palvelimilta mahdollistaa sekä käyttäjä- että palvelintason estojen tiukemman valvonnan. Tämä tapahtuu kuitenkin suorituskyvyn kustannuksella, vähentää vastauksiesi tavoittavuutta ja voi aiheuttaa yhteensopivuusongelmia joidenkin liittoutuvien palvelujen kanssa. Tämä ei myöskään estä omistautuneita toimijoita hakemasta julkisia julkaisujasi ja tilejäsi.
-=======
         authorized_fetch: Vaadi todennus yhdistetyiltä palvelimilta
         authorized_fetch_hint: Todennuksen vaatiminen federoiduilta palvelimilta mahdollistaa sekä käyttäjä- että palvelintason estojen tiukemman valvonnan. Tämä tapahtuu kuitenkin suorituskyvyn kustannuksella, vähentää vastauksiesi tavoittavuutta ja voi aiheuttaa yhteensopivuusongelmia joidenkin federoitujen palvelujen kanssa. Tämä ei myöskään estä omistautuneita toimijoita hakemasta julkisia julkaisujasi ja tilejäsi.
->>>>>>> refs/tags/v4.2.5
         authorized_fetch_overridden_hint: Et voi tällä hetkellä muuttaa tätä asetusta, koska se on ohitettu ympäristömuuttujalla.
         federation_authentication: Liittoutumisen todentamisen täytäntöönpano
       title: Palvelimen asetukset
@@ -815,11 +810,7 @@ fi:
       media:
         title: Media
       metadata: Metadata
-<<<<<<< HEAD
-      no_status_selected: Julkaisuja ei muutettu, koska yhtään ei ollut valittuna
-=======
       no_status_selected: Julkaisuja ei muutettu, koska yhtään ei ole valittuna
->>>>>>> refs/tags/v4.2.5
       open: Avaa julkaisu
       original_status: Alkuperäinen julkaisu
       reblogs: Edelleen jako
@@ -916,11 +907,7 @@ fi:
         description_html: Nämä ovat julkaisuja, joita palvelimesi tietää jaettavan ja lisättävän suosikkeihin paljon tällä hetkellä. Listaus voi auttaa uusia ja palaavia käyttäjiäsi löytämään lisää seurattavia. Julkaisut eivät näy julkisesti ennen kuin hyväksyt niiden julkaisijan ja julkaisija sallii tilinsä ehdottamisen. Voit myös sallia tai hylätä yksittäisiä julkaisuja.
         disallow: Kiellä julkaisu
         disallow_account: Estä tekijä
-<<<<<<< HEAD
-        no_status_selected: Suosittuja julkaisuja ei muutettu, koska yhtään ei ollut valittuna
-=======
         no_status_selected: Suosittuja julkaisuja ei muutettu, koska yhtään ei ole valittuna
->>>>>>> refs/tags/v4.2.5
         not_discoverable: Tekijä ei ole ilmoittanut olevansa löydettävissä
         shared_by:
           one: Jaettu tai lisätty suosikkeihin kerran
@@ -1021,11 +1008,7 @@ fi:
     remove: Poista aliaksen linkitys
   appearance:
     advanced_web_interface: Edistynyt selainkäyttöliittymä
-<<<<<<< HEAD
-    advanced_web_interface_hint: 'Jos haluat hyödyntää näytön koko leveyttä, edistyneen selainkäyttöliittymän avulla voit määrittää useita erilaisia sarakkeita, niin näet kerralla niin paljon tietoa kuin haluat: kotisyöte, ilmoitukset, yleinen aikajana, mikä tahansa määrä listoja ja aihetunnisteita.'
-=======
     advanced_web_interface_hint: 'Jos haluat hyödyntää näytön koko leveyttä, edistyneen webkäyttöliittymän avulla voit määrittää useita erilaisia sarakkeita, niin näet kerralla niin paljon tietoa kuin haluat: kotisyöte, ilmoitukset, yleinen aikajana, mikä tahansa määrä listoja ja aihetunnisteita.'
->>>>>>> refs/tags/v4.2.5
     animations_and_accessibility: Animaatiot ja saavutettavuus
     confirmation_dialogs: Vahvistusvalinnat
     discovery: Löytäminen
@@ -1124,14 +1107,8 @@ fi:
       account_status: Tilin tila
       confirming: Odotetaan sähköpostivahvistuksen valmistumista.
       functional: Tilisi on täysin toiminnassa.
-<<<<<<< HEAD
-      pending: Hakemuksesi odottaa palvelimen ylläpidon tarkastusta. Tämä voi kestää jonkin aikaa. Saat sähköpostiviestin, jos hakemuksesi hyväksytään.
-      redirecting_to: Tilisi ei ole aktiivinen, koska se ohjaa tällä hetkellä tilille %{acct}.
-      self_destruct: Koska %{domain} sulkeutuu, voit käyttää tiliäsi vain rajoitetusti.
-=======
       pending: Hakemuksesi odottaa henkilökuntamme tarkastusta. Tämä voi kestää jonkin aikaa. Saat sähköpostiviestin, jos hakemuksesi hyväksytään.
       redirecting_to: Tilisi ei ole aktiivinen, koska se ohjaa tällä hetkellä tilille %{acct}.
->>>>>>> refs/tags/v4.2.5
       view_strikes: Näytä tiliäsi koskevia aiempia varoituksia
     too_fast: Lomake lähetettiin liian nopeasti, yritä uudelleen.
     use_security_key: Käytä suojausavainta
@@ -1293,11 +1270,7 @@ fi:
       batch:
         remove: Poista suodattimista
       index:
-<<<<<<< HEAD
-        hint: Tämä suodatin koskee yksittäisten julkaisujen valintaa muista kriteereistä riippumatta. Voit lisätä lisää julkaisuja tähän suodattimeen selainkäyttöliittymästä.
-=======
         hint: Tämä suodatin koskee yksittäisten julkaisujen valintaa muista kriteereistä riippumatta. Voit lisätä lisää julkaisuja tähän suodattimeen verkkokäyttöliittymästä.
->>>>>>> refs/tags/v4.2.5
         title: Suodatetut julkaisut
   generic:
     all: Kaikki
@@ -1376,11 +1349,7 @@ fi:
     types:
       blocking: Estoluettelo
       bookmarks: Kirjanmerkit
-<<<<<<< HEAD
-      domain_blocking: Verkkotunnusten estoluettelo
-=======
       domain_blocking: Verkkotunnuksen estoluettelo
->>>>>>> refs/tags/v4.2.5
       following: Seurattujen luettelo
       lists: Listat
       muting: Mykistettyjen luettelo
@@ -1454,13 +1423,8 @@ fi:
       not_found: ei voitu löytää
       on_cooldown: Sinä olet jäähyllä
     followers_count: Seuraajat muuton aikana
-<<<<<<< HEAD
-    incoming_migrations: Muutto toiselta tililtä
-    incoming_migrations_html: Muuttaaksesi toisesta tilistä tähän, sinun täytyy ensin <a href="%{path}">luoda tilin alias</a>.
-=======
     incoming_migrations: Siirtyminen toiselta tililtä
     incoming_migrations_html: Siirtyäksesi toisesta tilistä tähän, sinun täytyy ensin <a href="%{path}">luoda tilin alias</a>.
->>>>>>> refs/tags/v4.2.5
     moved_msg: Tilisi ohjaa nyt kohteeseen %{acct} ja seuraajiasi siirretään.
     not_redirecting: Tilisi ei ohjaa tällä hetkellä mihinkään muuhun tiliin.
     on_cooldown: Olet siirtänyt tilisi äskettäin. Tämä toiminto tulee saataville uudelleen %{count} päivän kuluttua.
@@ -1571,11 +1535,7 @@ fi:
     privacy_hint_html: Määritä, kuinka paljon muita avustavia tietoja haluat paljastaa. Käyttäjät löytävät kiinnostavia profiileja ja hienoja sovelluksia, kun he selaavat toisten seuraamia käyttäjiä ja kun he näkevät, millä sovelluksilla nämä julkaisevat. Saatat kuitenkin haluta piilottaa nämä tiedot.
     reach: Tavoittavuus
     reach_hint_html: Määritä, haluatko tulla uusien käyttäjien löytämäksi ja seuraamaksi. Haluatko julkaisujesi näkyvän Selaa-sivulla? Haluatko muiden käyttäjien näkevän sinut seuraamissuosituksissaan? Haluatko hyväksyä kaikki uudet seuraajat automaattisesti vai päättää jokaisesta erikseen?
-<<<<<<< HEAD
-    search: Hae
-=======
     search: Haku
->>>>>>> refs/tags/v4.2.5
     search_hint_html: Määritä, kuinka haluat tulla löydetyksi. Haluatko, että ihmiset löytävät sinut julkisten julkaisujesi perusteella? Haluatko, että ihmiset Mastodonin ulkopuolella löytävät profiilisi tehdessään hakuja verkossa? Otathan huomioon, ettei julkisten tietojen täyttä kaikista hakukoneista poisjäämistä voi taata.
     title: Yksityisyys ja tavoittavuus
   privacy_policy:
@@ -1619,12 +1579,6 @@ fi:
     over_daily_limit: Olet ylittänyt %{limit} ajoitetun julkaisun rajan tälle päivälle
     over_total_limit: Olet ylittänyt %{limit} ajoitetun julkaisun rajan
     too_soon: Ajoitetun päiväyksen pitää olla tulevaisuudessa
-<<<<<<< HEAD
-  self_destruct:
-    lead_html: Valitettavasti <strong>%{domain}</strong> sulkeutuu pysyvästi. Jos sinulla on siellä tili, et voi jatkaa sen käyttöä mutta voit yhä pyytää varmuuskopiota tiedoistasi.
-    title: Tämä palvelin sulkeutuu
-=======
->>>>>>> refs/tags/v4.2.5
   sessions:
     activity: Viimeisin toiminta
     browser: Selain
@@ -1681,11 +1635,7 @@ fi:
     development: Kehitys
     edit_profile: Muokkaa profiilia
     export: Vie tietoja
-<<<<<<< HEAD
-    featured_tags: Esillä pidettävät aihetunnisteet
-=======
     featured_tags: Esiteltävät aihetunnisteet
->>>>>>> refs/tags/v4.2.5
     import: Tuo
     import_and_export: Tuonti ja vienti
     migrate: Tilin muutto muualle
@@ -1766,11 +1716,7 @@ fi:
     keep_self_bookmark: Säilytä kirjanmerkkeihin lisäämäsi julkaisut
     keep_self_bookmark_hint: Ei poista julkaisujasi, jos olet lisännyt ne kirjanmerkkeihin
     keep_self_fav: Säilytä suosikkeihin lisäämäsi julkaisut
-<<<<<<< HEAD
-    keep_self_fav_hint: Ei poista julkaisujasi, jos olet lisännyt ne suosikkeihisi
-=======
     keep_self_fav_hint: Ei poista julkaisujasi, jos olet lisännyt ne suosikkeihin
->>>>>>> refs/tags/v4.2.5
     min_age:
       '1209600': 2 viikkoa
       '15778476': 6 kuukautta
@@ -1849,11 +1795,7 @@ fi:
         spam: Roskaposti
         violation: Sisältö rikkoo seuraavia yhteisön sääntöjä
       explanation:
-<<<<<<< HEAD
-        delete_statuses: Joidenkin julkaisuistasi on havaittu rikkovan ainakin yhtä yhteisön sääntöä, joten instanssin %{instance} valvojat ovat poistaneet ne.
-=======
         delete_statuses: Joidenkin julkaisuistasi on havaittu rikkovan ainakin yhtä yhteisön sääntöä, ja instanssin %{instance} valvojat ovat poistaneet ne.
->>>>>>> refs/tags/v4.2.5
         disable: Et voi enää käyttää tiliäsi, mutta profiilisi ja muut tiedot pysyvät muuttumattomina. Voit pyytää varmuuskopiota tiedoistasi, vaihtaa tilin asetuksia tai poistaa tilisi.
         mark_statuses_as_sensitive: Palvelimen %{instance} valvojat ovat merkinneet osan julkaisuistasi arkaluonteisiksi. Tämä tarkoittaa sitä, että ihmisten täytyy napauttaa mediaa ennen kuin sen esikatselu näytetään. Voit merkitä median itse arkaluonteiseksi, kun julkaiset tulevaisuudessa.
         sensitive: Tästä lähtien kaikki ladatut mediatiedostot merkitään arkaluonteisiksi ja piilotetaan napsautusvaroituksen taakse.
@@ -1874,11 +1816,7 @@ fi:
         disable: Tili jäädytetty
         mark_statuses_as_sensitive: Julkaisut merkitty arkaluonteisiksi
         none: Varoitus
-<<<<<<< HEAD
-        sensitive: Tili merkitty arkaluonteiseksi
-=======
         sensitive: Tili on merkitty arkaluonteiseksi
->>>>>>> refs/tags/v4.2.5
         silence: Tiliä rajoitettu
         suspend: Tili jäädytetty
     welcome:
