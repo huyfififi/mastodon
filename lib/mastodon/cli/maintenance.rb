@@ -173,6 +173,11 @@ module Mastodon::CLI
       deduplicate_webauthn_credentials!
       deduplicate_webhooks!
       deduplicate_software_updates!
+
+      Scenic.database.refresh_materialized_view('instances', concurrently: true, cascade: false) if ActiveRecord::Migrator.current_version >= 2020_12_06_004238
+      Rails.cache.clear
+
+      say 'Finished!'
     end
 
     def deduplication_cleanup_tasks

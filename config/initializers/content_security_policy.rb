@@ -2,9 +2,13 @@
 
 # Be sure to restart your server when you modify this file.
 
-# Define an application-wide content security policy.
-# See the Securing Rails Applications Guide for more information:
-# https://guides.rubyonrails.org/security.html#content-security-policy-header
+def host_to_url(str)
+  return if str.blank?
+
+  uri = Addressable::URI.parse("http#{Rails.configuration.x.use_https ? 's' : ''}://#{str}")
+  uri.path += '/' unless uri.path.blank? || uri.path.end_with?('/')
+  uri.to_s
+end
 
 require_relative '../../app/lib/content_security_policy'
 

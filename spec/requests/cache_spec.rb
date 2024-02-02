@@ -123,6 +123,7 @@ describe 'Caching behavior' do
     it 'does not set cookies or set public cache control', :aggregate_failures do
       expect(response.cookies).to be_empty
 
+    it 'sets public cache control', :aggregate_failures do
       # expect(response.cache_control[:max_age]&.to_i).to be_positive
       expect(response.cache_control[:public]).to be_truthy
       expect(response.cache_control[:private]).to be_falsy

@@ -107,7 +107,7 @@
   "closed_registrations_modal.preamble": "Mastodon est décentralisé : peu importe où vous créez votre compte, vous serez en mesure de suivre et d'interagir avec quiconque sur ce serveur. Vous pouvez même l'héberger !",
   "closed_registrations_modal.title": "Inscription sur Mastodon",
   "column.about": "À propos",
-  "column.blocks": "Utilisateurs bloqués",
+  "column.blocks": "Comptes bloqués",
   "column.bookmarks": "Marque-pages",
   "column.community": "Fil public local",
   "column.direct": "Mentions privées",

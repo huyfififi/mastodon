@@ -59,7 +59,7 @@ fi:
         setting_display_media_default: Piilota arkaluonteiseksi merkitty media
         setting_display_media_hide_all: Piilota media aina
         setting_display_media_show_all: Näytä media aina
-        setting_use_blurhash: Liukuvärit perustuvat piilotettujen kuvien väreihin mutta sumentavat yksityiskohdat
+        setting_use_blurhash: Liukuvärit perustuvat piilotettujen kuvien väreihin, mutta sumentavat yksityiskohdat
         setting_use_pending_items: Piilota aikajanan päivitykset napsautuksen taakse syötteen automaattisen vierityksen sijaan
         username: Voit käyttää kirjaimia, numeroita ja alaviivoja
         whole_word: Kun avainsana tai -fraasi on kokonaan aakkosnumeerinen, se on voimassa vain, jos se vastaa koko sanaa
@@ -84,7 +84,7 @@ fi:
         custom_css: Voit käyttää mukautettuja tyylejä Mastodonin verkkoversiossa.
         mascot: Ohittaa kuvituksen edistyneessä selainkäyttöliittymässä.
         media_cache_retention_period: Ladatut mediatiedostot poistetaan määritetyn määrän päiviä jälkeen, kun arvo on positiivinen ja ladataan uudelleen pyynnöstä.
-        peers_api_enabled: Luettelo verkkotunnuksista, jotka tämä palvelin on kohdannut fediversumissa. Se ei kerro, oletko liitossa tietyn palvelimen kanssa, vaan että palvelimesi on ylipäätään tietoinen siitä. Tätä tietoa käytetään palveluissa, jotka keräävät tilastoja federoinnista yleisellä tasolla.
+        peers_api_enabled: Luettelo verkkotunnuksista, jotka tämä palvelin on kohdannut fediversumissa. Se ei kerro, oletko liitossa tietyn palvelimen kanssa, vaan että palvelimesi on ylipäätään tietoinen siitä. Tätä tietoa käytetään palveluissa, jotka keräävät tilastoja liittoutumisesta yleisellä tasolla.
         profile_directory: Profiilihakemisto lueteloi kaikki käyttäjät, jotka ovat ilmoittaneet olevansa löydettävissä.
         require_invite_text: Kun rekisteröityminen vaatii manuaalisen hyväksynnän, tee ”Miksi haluat liittyä?” -tekstikentästä pakollinen vapaaehtoisen sijaan
         site_contact_email: Kuinka ihmiset voivat tavoittaa sinut oikeudellisissa tai tukikysymyksissä.
@@ -140,7 +140,7 @@ fi:
         url: Mihin tapahtumat lähetetään
     labels:
       account:
-        discoverable: Pidä profiiliasi ja julkaisujasi esillä löytämisalgoritmeissa
+        discoverable: Nosta profiili ja julkaisut esille löytämisalgoritmeissa
         fields:
           name: Nimike
           value: Sisältö
@@ -148,9 +148,9 @@ fi:
         show_collections: Näytä seuratut ja seuraajat profiilissa
         unlocked: Hyväksy uudet seuraajat automaattisesti
       account_alias:
-        acct: Vanhan tilin käyttäjänimi
+        acct: Vanhan tilin käyttäjätunnus
       account_migration:
-        acct: Uuden tilin käyttäjänimi
+        acct: Uuden tilin käyttäjätunnus
       account_warning_preset:
         text: Esiasetettu teksti
         title: Nimi
@@ -163,8 +163,8 @@ fi:
           disable: Poista kirjautuminen käytöstä
           none: Älä tee mitään
           sensitive: Arkaluonteinen
-          silence: Rajoita
-          suspend: Jäädytä
+          silence: Hiljennä
+          suspend: Poista käytöstä ja tuhoa käyttäjätunnuksen tiedot peruuttamattomasti
         warning_preset_id: Käytä varoitusmallia
       announcement:
         all_day: Koko päivän kestävä tapahtuma
@@ -189,6 +189,7 @@ fi:
         expires_in: Vanhenee
         fields: Lisäkentät
         header: Otsakekuva
+        header: Otsikkokuva
         honeypot: "%{label} (älä täytä)"
         inbox_url: Välittäjän postilaatikon URL-osoite
         irreversible: Pudota piilottamisen sijaan
@@ -225,7 +226,7 @@ fi:
         severity: Vakavuus
         sign_in_token_attempt: Turvakoodi
         title: Nimi
-        type: Tuontityyppi
+        type: Tuontilaji
         username: Käyttäjänimi
         username_or_email: Käyttäjänimi tai sähköpostiosoite
         whole_word: Koko sana

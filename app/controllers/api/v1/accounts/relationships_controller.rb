@@ -5,9 +5,10 @@ class Api::V1::Accounts::RelationshipsController < Api::BaseController
   before_action :require_user!
 
   def index
-    @accounts = Account.where(id: account_ids).select('id')
-    @accounts.merge!(Account.without_suspended) unless truthy_param?(:with_suspended)
-    render json: @accounts, each_serializer: REST::RelationshipSerializer, relationships: relationships
+    @accounts = Account.without_suspended.where(id: account_ids).select(:id, :domain).to_a
+    # .where doesn't guarantee that our results are in the same order
+    # we requested them, so return the "right" order to the requestor.
+    render json: @accounts.index_by(&:id).values_at(*account_ids).compact, each_serializer: REST::RelationshipSerializer, relationships: relationships
   end
 
   private

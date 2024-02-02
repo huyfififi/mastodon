@@ -752,12 +752,6 @@ fa:
         message_html: هیچ قانون کارسازی تعریف نکرده‌اید.
       sidekiq_process_check:
         message_html: صف(های) %{value} فاقد هیچونه فرایند Sidekiq هستند. لطفا تنظیمات Sidekiq خود را بازبینی کنید
-      software_version_critical_check:
-        action: مشاهده به‌روزرسانی‌های موجود
-        message_html: یک به‌روزرسانی حیاتی ماستودون موجود است، لطفا در اسرع وقت به‌روزرسانی کنید.
-      software_version_patch_check:
-        action: مشاهده به‌روزرسانی‌های موجود
-        message_html: یک به‌روزرسانی رفع اشکال ماستودون موجود است.
       upload_check_privacy_error:
         action: برای اطّلاعات بیش‌تر این‌جا را بررسی کنید
         message_html: "<strong>کارساز وبتان بد پیکربندی شده. محرمانگی کاربرانتان در خطر است.</strong>"

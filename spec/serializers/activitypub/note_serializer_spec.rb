@@ -14,6 +14,10 @@ describe ActivityPub::NoteSerializer do
   let!(:reply_by_account_third) { Fabricate(:status, account: account, thread: parent, visibility: :public) }
   let!(:reply_by_account_visibility_direct) { Fabricate(:status, account: account, thread: parent, visibility: :direct) }
 
+  before(:each) do
+    @serialization = ActiveModelSerializers::SerializableResource.new(parent, serializer: described_class, adapter: ActivityPub::Adapter)
+  end
+
   it 'has the expected shape' do
     expect(subject).to include({
       '@context' => include('https://www.w3.org/ns/activitystreams'),
