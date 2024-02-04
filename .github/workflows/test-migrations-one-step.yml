@@ -4,6 +4,7 @@ on:
     branches-ignore:
       - 'dependabot/**'
       - 'renovate/**'
+      - 'main'
   pull_request:
 
 jobs:
