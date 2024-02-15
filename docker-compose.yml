@@ -59,7 +59,7 @@ services:
   web:
     container_name: web
     build: .
-    image: ghcr.io/mastodon/mastodon:v4.2.5
+    image: ghcr.io/mastodon/mastodon:v4.2.6
     restart: always
     env_file: .env.production
     command: bash -c "rm -f /mastodon/tmp/pids/server.pid; bundle exec rake db:migrate; bundle exec rails s -p 3000"
@@ -81,7 +81,7 @@ services:
   streaming:
     container_name: streaming
     build: .
-    image: ghcr.io/mastodon/mastodon:v4.2.5
+    image: ghcr.io/mastodon/mastodon:v4.2.6
     restart: always
     env_file: .env.production
     command: node ./streaming
@@ -100,7 +100,7 @@ services:
   sidekiq:
     container_name: sidekiq
     build: .
-    image: ghcr.io/mastodon/mastodon:v4.2.5
+    image: ghcr.io/mastodon/mastodon:v4.2.6
     restart: always
     env_file: .env.production
     command: bundle exec sidekiq
