@@ -43,6 +43,9 @@ COPY .yarn /opt/mastodon/.yarn
 
 RUN bundle install -j"$(nproc)"
 
+# Install Yarn 2.x (Berry)
+RUN corepack enable yarn && yarn set version berry
+
 RUN yarn workspaces focus --all --production && \
     yarn cache clean
 
